@@ -1,0 +1,1339 @@
+{
+  "settings": {
+    "name": "LoreleyAmiti",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#eb5a1a",
+        "secondaryColor": "#ba4715",
+        "successColor": "#d64b0b",
+        "infoColor": "#ffffff",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": [
+        "#151515",
+        "#212121"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.6.2",
+    "uniqCompNum": 58,
+    "versionPublish": "4.11.6",
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Loreley Amiti - Author",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1.05rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.137rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#191919!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#212121"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#212121",
+            "fontSize": "1.05",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-9\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider6-w\">Books</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"news.html\">News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-v\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-gr-500x121.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/AuthorAmiti\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-twitter\"></i></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/LoreleyAmiti\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"></a>  ",
+          "contacts": "<a data-app-btn=\"true\" href=\"mailto:littwitz.press@gmail.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span> littwitz.press @ gmail.com</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "showMedia": false,
+            "imageSize": 50,
+            "inverse": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/loreleyamiti-authorpic-5-2000x1333.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.4"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=axMabrSDrI8",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Fiction, Young Adult and children's books</i></span><br>are my passion",
+          "text": "I love living more lives than just one. To be fascinated by people I have never met. To captivate others with memorable stories that have never happened and yet leave footprints in our hearts.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1g",
+          "_styles": {
+            "SPAN": {
+              "font-size": "80px"
+            },
+            "H1": {
+              "font-size": "80px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": false,
+            "showImages": false,
+            "columns": "2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "target",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "telescope",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "strategy",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "trophy",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "lightbulb",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "presentation",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Loreley</i></span>&nbsp;Amiti",
+          "subtitle": "About",
+          "text": "Fiction, Young Adult and children's books are my passion.",
+          "title1": "",
+          "title2": "",
+          "title3": "marketing strategy",
+          "title4": "creative compaings",
+          "title5": "innovation ideas",
+          "title6": "business analysis",
+          "text1": "The multilingual journalist worked for a publishing house and the press before focusing on her own books. She writes history, literary fiction, YA and picture books, which are being published on the English, Italian and German-speaking market.&nbsp;<br><br>",
+          "text2": "The author and active supporter of the UK children's charity NSPCC lives in the South West of England and loves to hear from her readers.&nbsp;<br>",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, rerum, architecto? Perspiciatis obcaecati voluptas ratione cum, dolorem maxime quidem cumque.",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, cupiditate, debitis! Laborum maiores autem totam aliquid nemo beatae possimus rem?",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe illum, ipsa voluptas animi laborum? Veniam delectus totam, voluptatem maxime!",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-9",
+          "_styles": {
+            "H5": {
+              "color": "#d64b0b"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>All </i></span>Books",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "showArrows": false,
+            "showBullets": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "visibleSlides": "5",
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/theunforgottenones-boxset-lowres-900x1200.jpg",
+                    "link": "http://www.littwitzpress.com/fiction.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/strangerswithin-lowres-900x1200.jpg",
+                    "link": "http://www.littwitzpress.com/fiction.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/du01-diespurenderfremden-ebook-cover-improved-lowres-900x1200.jpg",
+                    "link": "http://www.littwitzpress.com/german-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/du02-matroschkas-ebook-cover-improved-lowres-900x1200.jpg",
+                    "link": "http://www.littwitzpress.com/german-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/du03-explosivebegegnung-print-cover-improved-lowres-900x1200.jpg",
+                    "link": "http://www.littwitzpress.com/german-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              }
+            ]
+          },
+          "title": "Our clients",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider6",
+          "_anchor": "slider6-w"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showArrows": true,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "visibleSlides": "5",
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-themoonlantern-english-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/childrens-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/thesolsticefairy-english-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/childrens-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-halloweenholler-lowres-900x1163.jpg",
+                    "link": "http://www.littwitzpress.com/childrens-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-themoonlantern-german-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/german-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/thesolsticefairy-german-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/german-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-halloweenholler-german-lowres-900x1163.jpg",
+                    "link": "http://www.littwitzpress.com/german-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-themoonlantern-italian-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/italian-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/thesolsticefairy-italian-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/italian-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-halloweenholler-italian-lowres-900x1163.jpg",
+                    "link": "http://www.littwitzpress.com/italian-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cover-themoonlantern-spanish-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/spanish-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/thesolsticefairy-spanish-lowres-900x1273.jpg",
+                    "link": "http://www.littwitzpress.com/spanish-kids-books.html",
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": true
+                  }
+                }
+              }
+            ]
+          },
+          "title": "Our clients",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider6",
+          "_anchor": "slider6-x"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": false,
+            "showSeparator": false,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<em>Title</em> with Text and Buttons",
+          "subtitle": "Subtitle",
+          "text": "Al",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://www.littwitzpress.com/index.html\" class=\"btn btn-black\" role=\"button\" target=\"_blank\">More Information About All Books</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title3",
+          "_anchor": "title3-y"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showImages": true,
+            "columns": "6",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#e5e5e5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "stars",
+              "family": "icon54-v2",
+              "active": true,
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Reader's&nbsp;</i></span>Voices",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
+          "title1": "Captivating books!",
+          "title2": "I love her style!",
+          "title3": "Utterly impressive!",
+          "title4": "Modern, yet classic books!",
+          "title5": "Eagerly waiting for more!&nbsp;",
+          "title6": "Addictive stories!",
+          "text1": "",
+          "text2": "",
+          "text3": "",
+          "text4": "",
+          "text5": "",
+          "text6": "",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-6"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1438x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<span>Follow Loreley Amiti</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social2",
+          "_anchor": "social2-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showImages": true,
+            "columns": "2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "envelope",
+              "family": "et-line",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "global",
+              "family": "et-line",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "strategy",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "trophy",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "lightbulb",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "presentation",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title": "<em>Get</em>&nbsp;In Touch",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
+          "title1": "Contact",
+          "title2": "www",
+          "title3": "marketing strategy",
+          "title4": "creative compaings",
+          "title5": "innovation ideas",
+          "title6": "business analysis",
+          "text1": "To contact Loreley Amiti, please get in touch with Littwitz Press.",
+          "text2": "<a href=\"http://www.littwitzpress.com\" target=\"_blank\">www.littwitzpress.com</a><br>Emma Stein: littwitz.press @ gmail.com<littwitz.press@gmail.com></littwitz.press@gmail.com>",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, rerum, architecto? Perspiciatis obcaecati voluptas ratione cum, dolorem maxime quidem cumque.",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, cupiditate, debitis! Laborum maiores autem totam aliquid nemo beatae possimus rem?",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe illum, ipsa voluptas animi laborum? Veniam delectus totam, voluptatem maxime!",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-v"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<span style=\"font-weight: normal;\">Copyright © 2018</span> <a href=\"index.html\">Loreley Amiti</a><span style=\"font-weight: normal;\">. All rights reserved.&nbsp;</span><br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-s"
+        }
+      ]
+    },
+    "news.html": {
+      "settings": {
+        "title": "News",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1.05rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.137rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#080808"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#191919!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#212121"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#fff"
+            },
+            ".link[aria-expanded=\"true\"]": {
+              "color": "#fff!important"
+            },
+            ".dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#212121",
+            "fontSize": "1.05",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#fff",
+            "fontActiveColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-9\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#slider6-w\">Books</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"news.html\">News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-v\">Contact</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-gr-500x121.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/AuthorAmiti\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-twitter\"></i></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/LoreleyAmiti\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"></a>  ",
+          "contacts": "<a data-app-btn=\"true\" href=\"mailto:littwitz.press@gmail.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\" class=\"\"><span class=\"fa fa-envelope-o mbr-iconfont mbr-iconfont-btn\"></span> littwitz.press @ gmail.com</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1355x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.7"
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>All </i></span>News",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-13",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "postToLoad": "7",
+            "facebookToken": "",
+            "facebook": "LoreleyAmiti",
+            "twitter": "",
+            "youtube": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-1c"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header4.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.7
+          },
+          "title": "Sign up<span style=\"font-weight: normal;\"><i>&nbsp;to Loreley's biannual newsletter</i></span>",
+          "form": {
+            "action": "info@littwitzpress.com",
+            "alerts": {
+              "success": "Thank you!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\" type=\"submit\">subscribe now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "subscribe1",
+          "_anchor": "subscribe1-1k"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#ffffff",
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1438x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<span>Follow Loreley Amiti</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social btn-white\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/LoreleyAmiti\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social2",
+          "_anchor": "social2-19"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<span style=\"font-weight: normal;\">Copyright © 2018</span> <a href=\"index.html\">Loreley Amiti</a><span style=\"font-weight: normal;\">. All rights reserved.&nbsp;</span><br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1b"
+        }
+      ]
+    }
+  }
+}
