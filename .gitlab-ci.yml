@@ -3,7 +3,7 @@
 image: python:latest
 
 variables:
-  S3_BUCKET: "loreleyamiti"
+  S3_BUCKET: "website-loreleyamiti"
   CF_DISTID: "nocheinfügen!"
 
 stages:
